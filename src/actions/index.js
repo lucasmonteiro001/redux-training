@@ -6,3 +6,11 @@ export function selectBook(book) {
         payload: book
     };
 }
+
+export function addBook(book) {
+    return {
+        type: 'BOOK_ADD',
+        payload: book
+    }
+}
+
